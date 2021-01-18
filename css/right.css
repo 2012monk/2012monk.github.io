@@ -1,0 +1,91 @@
+.js-toDoForm{
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+}
+/* .rightSide input, */
+.rightSide{
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 500px;
+    position: relative;
+}
+
+
+
+
+.js-toDoList{
+    margin: 10px;
+}
+
+ul{
+    position: relative;
+    list-style: none;
+    padding-left: 5px;
+    width: 400px;
+    height: 15px;
+}
+
+
+li span{
+    width: 400px;
+    height: 15px;
+    position: relative;
+    word-break:break-all;
+    white-space: normal;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    line-height: 85%;
+    /* left: 15px; */
+}
+
+li{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 5px;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    background-color: rgba(58, 58, 58, 0.7);
+    color: black;
+    font-size: 22px;
+    animation: fadeIn 0.5s ease-in; 
+    flex-basis: auto;
+    position: relative;
+}
+
+.js-weather{
+    position: fixed; top:4%; right: 6%;
+}
+
+
+
+.checkBtn{
+    border: none;
+    position: relative;
+}
+
+.delBtn{
+    position: absolute;
+    border: none;
+
+}
+
+.js-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgba(53, 53, 53, 0.8);
+    color:black;
+    border-radius: 8px;
+    height: auto;
+    width: 100px;
+}

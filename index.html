@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>momnetum</title>
+    <script src="https://kit.fontawesome.com/e349d9947b.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='css/index.css'>
+</head>
+
+<body>
+    <div class='leftSide'>
+        <div class='js-clock'>
+        <h1>
+            <span class="js-time">00:00</span>
+        </h1>
+        </div>
+        <div class='js-background'>
+            <span class='photoinfo'></span>
+            <div class='iconContainer'></div>
+        </div>
+        <div class='js-greetings'>Greetings</div>
+        <form class='js-form form'> <!-- css receive form class-->
+            <input type='text' placeholder="What's your name" />
+        </form>
+    </div>
+    <div class='rightSide'>
+        <form class="js-toDoForm">
+            <input type='text' placeholder="Write a to do" />
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+    </div>
+    <div class="js-weather">
+        <span class="temp"></span>
+        <span class="location"></span>
+    </div>
+    <script src='clock.js'></script>
+    <script src='greeting.js'></script>
+    <script src='todo.js'></script>
+    <script type='text/javascript' src="config.js"></script>
+    <script type='text/javascript' src='background.js'></script>
+    <script type='text/javascript' src='weather.js'></script>
+</body>
+</html>

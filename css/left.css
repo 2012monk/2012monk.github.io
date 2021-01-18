@@ -1,0 +1,85 @@
+.form,
+.js-form{
+    align-items: center;
+}
+
+.leftSide{
+    width: 500px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    filter: blur(50%);
+    flex-basis: 400px;
+    border-radius: 20px;
+}
+
+.leftSide input{
+    position: relative;
+}
+
+.js-clock{
+    margin-top: 20px;
+    position: relative;
+    left: auto;
+    box-sizing: border-box;
+}
+
+.js-time{
+    position: relative;
+    font-size: 120px;
+    word-spacing: -20px;
+    left: auto;
+}
+
+.js-greetings{
+    position: static;
+    margin-top: 50px;
+    font-size: 60px;
+    left: auto;
+    /* flex-basis: 100px; */
+    word-break: break-all;
+    font-style: normal;
+}
+
+.js-background{
+    position: fixed; top:80%; left: 10px;;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgba(53, 53, 53, 0.8);
+    color: black;
+}
+
+.js-form input::placeholder{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.albumToggled,
+.photoInfo{
+    position: relative;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.iconContainer{
+
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    font-size: 30px;
+    border-radius: 3px;
+    margin: 6px;
+    bottom: 5px;
+    color: rgb(0, 0, 0);
+}
